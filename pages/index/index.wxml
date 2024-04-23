@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<text>index页面</text>
+
+<!-- <view wx:for="{{ people }}">
+  {{ index }} 姓名：{{ item.name }}，年龄：{{ item.age }}
+</view> -->
+
+<!-- <view wx:for="{{ people1 }}" wx:key="id">
+  {{ idx }} 姓名：{{ item.name }}，年龄：{{ item.name }}
+</view> -->
+
+<view wx:for="{{ people1 }}" wx:key="id" wx:for-index="idx" wx:for-item="item" class="userName">
+  {{ item.id }} 姓名：{{ item.name }}，年龄：{{ item.name }}
+</view>

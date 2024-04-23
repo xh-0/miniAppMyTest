@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/message/message"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FEC5A5",
+    "navigationBarTitleText": "xiaohu's diary",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "color": "#3F261A",
+    "selectedColor": "#3F260A",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./public/images/home.png",
+        "selectedIconPath": "./public/images/home-fill.png"
+      }, {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "./public/images/bell.png",
+        "selectedIconPath": "./public/images/bell-fill.png"
+      }, {
+        "pagePath": "pages/login/login",
+        "text": "我的",
+        "iconPath": "./public/images/mail.png",
+        "selectedIconPath": "./public/images/mail-fill.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
