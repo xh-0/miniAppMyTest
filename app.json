@@ -8,8 +8,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#FEC5A5",
-    "navigationBarTitleText": "xiaohu's diary",
+    "navigationBarBackgroundColor": "#ffff",
+    "navigationBarTitleText": "xh装修",
     "navigationBarTextStyle":"black",
     "backgroundColor": "#efefef"
   },
@@ -24,7 +24,7 @@
         "selectedIconPath": "./public/images/home-fill.png"
       }, {
         "pagePath": "pages/message/message",
-        "text": "消息",
+        "text": "预约服务",
         "iconPath": "./public/images/bell.png",
         "selectedIconPath": "./public/images/bell-fill.png"
       }, {
@@ -37,4 +37,5 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+  
 }
