@@ -1,2 +1,20 @@
-<!--pages/message/message.wxml-->
-<text>消息1</text>
+<view>
+  <van-row>
+    <van-col span="12" wx:for="{{dataModelList}}" wx:key="{{ item.id }}">
+      <view class="col-row">
+        <view>
+          <van-image
+            radius="3"
+            width="9rem"
+            height="9rem"
+            fit="cover"
+            src="{{ item.img }}"
+          />
+        </view>
+        <view class="val-text1">{{ item.name }}</view>
+        <view class="val-text2">价格面议</view>
+        <view class="val-text3">已预约：0</view>
+      </view>
+    </van-col>
+  </van-row>
+</view>

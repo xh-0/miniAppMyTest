@@ -1,1 +1,54 @@
-<text>首页</text>
+<swiper 	indicator-dots="true" autoplay="true" class="gg-row">
+  <swiper-item class="gg-item">广告位招租1</swiper-item>
+  <swiper-item class="gg-item">广告位招租2</swiper-item>
+</swiper>
+
+<!-- 模块 -->
+<view>
+  <van-row>
+    <van-col span="12" class="model-row">
+      <view class="model-item">
+        <view class="model-text">
+          <view>精准测量</view>
+          <view class="model-text2"></view>
+        </view>
+        <view class="model-logo">
+          <van-icon name="edit" />
+        </view>
+      </view>
+    </van-col>
+    <van-col span="12" class="model-row">
+      <view class="model-item">
+        <view class="model-text">
+          <view>快速反应</view>
+          <view class="model-text2"></view>
+        </view>
+        <view class="model-logo">
+          <van-icon name="edit" />
+        </view>
+      </view>
+    </van-col>
+    <van-col span="12" class="model-row">
+      <view class="model-item">
+        <view class="model-text">
+          <view>拒绝增项</view>
+          <view class="model-text2"></view>
+        </view>
+        <view class="model-logo">
+          <van-icon name="edit" />
+        </view>
+      </view>
+    </van-col>
+    <van-col span="12" class="model-row">
+      <view class="model-item">
+        <view class="model-text">
+          <view>精准报价</view>
+          <view class="model-text2"></view>
+        </view>
+        <view class="model-logo">
+          <van-icon name="edit" />
+        </view>
+      </view>
+    </van-col>
+  </van-row>
+</view>

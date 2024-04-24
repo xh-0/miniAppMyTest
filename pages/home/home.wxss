@@ -1,1 +1,30 @@
 /* pages/home/home.wxss */
+
+.gg-row{
+  border-bottom: 1rpx solid #e4e4e4;
+}
+.gg-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model-item{
+  background-color: #F5F5F5;
+  border-radius: 10rpx;
+  height: 170rpx;
+  /* margin: 10rpx; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20rpx 20rpx;
+  padding: 0 20px;
+}
+.model-text2{
+  height: 25rpx;
+  width: 50rpx;
+  border-bottom: 5rpx solid #FFD851;
+}
+.model-logo{
+  color: #ED9F37;
+  font-size: 50rpx;
+}

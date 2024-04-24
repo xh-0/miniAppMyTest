@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    dataList:{}
+    dataList:{},
+    dataModelList:[
+      {id:1, name:"门店装修改造", subscribe:0, img:'https://pic.imgdb.cn/item/6628b78d0ea9cb1403d0bb13.png'},
+      {id:2, name:"卫浴改造", subscribe:0, img:'https://pic.imgdb.cn/item/6628b78d0ea9cb1403d0bb13.png'},
+      {id:3, name:"厨房改造", subscribe:0, img:'https://pic.imgdb.cn/item/6628b78d0ea9cb1403d0bb13.png'},
+      {id:4, name:"旧房装修", subscribe:0, img:'https://pic.imgdb.cn/item/6628b78d0ea9cb1403d0bb13.png'}
+    ]
   },
 
   /**
